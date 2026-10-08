@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Madinda Infinity Group | Training, PPE Supplies &amp; Consulting in South Africa</title>
-<meta name="description" content="Madinda Infinity Group provides practical training and skills development, PPE supplies and consulting services to businesses, organisations and individuals across all provinces of South Africa.">
+<meta name="description" content="Madinda Infinity Group provides practical training and skills development (79 courses in leadership, communication, sales, SME development, office skills and youth programmes), PPE supplies and consulting services to businesses, organisations and individuals across all provinces of South Africa.">
 <meta name="theme-color" content="#004A55">
 <link rel="icon" href="assets/madinda-favicon-192.png">
 <meta property="og:title" content="Madinda Infinity Group | Training, PPE Supplies &amp; Consulting">
@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"Madinda Infinity Group","description":"Training and skills development, PPE supplies and consulting services.","foundingDate":"2022","telephone":"+27732365057","email":"madindainfinity@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Fleurhof Kasi Close","addressLocality":"Fleurhof","postalCode":"1709","addressCountry":"ZA"},"areaServed":"South Africa","founder":{"@type":"Person","name":"Fezisa Felicia Sotshangane","jobTitle":"Director"}}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Madinda Infinity Group","description":"Training and skills development (79 soft-skills courses), PPE supplies and consulting services.","foundingDate":"2022","telephone":"+27732365057","email":"madindainfinity@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Fleurhof Kasi Close","addressLocality":"Fleurhof","postalCode":"1709","addressCountry":"ZA"},"areaServed":"South Africa","founder":{"@type":"Person","name":"Fezisa Felicia Sotshangane","jobTitle":"Director"}}
 </script>
 <style>
 :root{
@@ -45,6 +45,26 @@ h3{font-size:20px;letter-spacing:-.01em}
 .btn-line:hover{border-color:var(--white);background:rgba(255,255,255,.08)}
 .btn-teal{background:var(--teal);color:var(--white)}
 .btn-teal:hover{background:var(--deep)}
+
+/* COURSES */
+.courses .head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:34px;flex-wrap:wrap}
+.cfind{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:34px}
+.cfind input{flex:1;min-width:240px;max-width:440px;font:inherit;font-size:15px;padding:13px 20px;border:1px solid var(--line);border-radius:999px;outline:none;transition:border-color .3s var(--ease)}
+.cfind input:focus{border-color:var(--teal)}
+.cfind span{font-size:14px;color:var(--grey)}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:26px;align-items:start}
+.cat{border:1px solid var(--line);border-radius:var(--radius);padding:28px 28px 20px;background:var(--white);transition:border-color .3s var(--ease)}
+.cat:hover{border-color:var(--gold)}
+.cat .top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:14px}
+.cat .n{font-size:13px;font-weight:800;color:var(--gold);letter-spacing:.12em}
+.cat h3{font-size:18px;margin-top:4px}
+.cat .ct{flex:none;font-size:12px;font-weight:700;color:var(--teal);background:var(--mist);border-radius:999px;padding:5px 11px}
+.cat ul{list-style:none}
+.cat li{font-size:14.5px;padding:7px 0 7px 20px;border-top:1px solid var(--line);position:relative;line-height:1.45}
+.cat li::before{content:"";position:absolute;left:2px;top:14px;width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.cat.hide,.cat li.hide{display:none}
+.cnote{margin-top:30px;font-size:14px;color:var(--grey)}
+.cnote a{color:var(--teal);font-weight:700;border-bottom:2px solid var(--gold)}
 
 /* NAV */
 .nav{position:fixed;inset:0 0 auto;height:var(--nav-h);z-index:80;transition:background .35s var(--ease),box-shadow .35s var(--ease)}
@@ -226,6 +246,7 @@ footer img{height:44px}
     <ul class="menu" id="menu">
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
+      <li><a href="#courses">Courses</a></li>
       <li><a href="#how">How we work</a></li>
       <li><a href="#leadership">Leadership</a></li>
       <li><a class="btn btn-gold" href="#contact">Request a quote</a></li>
@@ -288,8 +309,8 @@ footer img{height:44px}
           <div class="ico"><svg viewBox="0 0 24 24"><path d="M17 3l4 4L8 20H4v-4L17 3z"/><path d="M14 6l4 4"/></svg></div>
           <h3>Training &amp; Skills Development</h3>
           <p>Programmes that build workplace readiness, support employee development and strengthen practical skills, for teams, organisations or individuals.</p>
-          <div class="tags"><span class="tag">Report Writing</span><span class="tag">Minute Taking</span><span class="tag">Conflict Management</span><span class="tag">Emotional Intelligence</span></div>
-          <div class="note">Soft-skills courses are currently non-accredited; accreditation for selected programmes is in progress.</div>
+          <div class="tags"><span class="tag">Personal Development</span><span class="tag">Leadership</span><span class="tag">Communication &amp; Service</span><span class="tag">Sales</span><span class="tag">Entrepreneurship &amp; SME</span><span class="tag">Office Admin</span><span class="tag">Schools &amp; Youth</span></div>
+          <a class="btn btn-teal" href="#courses" style="margin-top:20px;align-self:flex-start;padding:12px 22px;font-size:14px">View all 79 courses</a>
         </div>
       </article>
       <article class="card reveal">
@@ -311,6 +332,26 @@ footer img{height:44px}
         </div>
       </article>
     </div>
+  </div>
+</section>
+
+<section class="courses" id="courses">
+  <div class="wrap">
+    <div class="head reveal">
+      <div><div class="eyebrow">Training programmes</div><h2>79 courses across 7 programme areas</h2></div>
+      <p class="lead" style="max-width:460px">From personal development and leadership to sales, SME growth and youth programmes. Every course can be tailored to your group, sector and schedule.</p>
+    </div>
+    <div class="cfind reveal"><input type="search" id="cq" placeholder="Search courses, e.g. leadership or minute taking" aria-label="Search courses"><span id="cc">Showing all 79 courses</span></div>
+    <div class="cgrid" id="cgrid">
+      <div class="cat reveal"><div class="top"><div><div class="n">01</div><h3>Personal Development &amp; Workplace Skills</h3></div><span class="ct">12 courses</span></div><ul><li>Emotional Intelligence</li><li>Time Management &amp; Productivity</li><li>Stress Management</li><li>Personal Mastery &amp; Self-Awareness</li><li>Confidence Building &amp; Self-Esteem</li><li>Goal Setting &amp; Personal Development</li><li>Critical Thinking &amp; Problem-Solving</li><li>Decision-Making Skills</li><li>Adaptability &amp; Resilience</li><li>Work Ethics &amp; Professionalism</li><li>Conflict Management</li><li>Managing Change in the Workplace</li></ul></div>
+      <div class="cat reveal"><div class="top"><div><div class="n">02</div><h3>Leadership &amp; Management Skills</h3></div><span class="ct">13 courses</span></div><ul><li>Leadership Development</li><li>Supervisory Skills</li><li>Team Leadership</li><li>People Management</li><li>Coaching &amp; Mentoring Skills</li><li>Delegation &amp; Accountability</li><li>Performance Management Skills</li><li>Motivating Employees</li><li>Managing Difficult Employees</li><li>Effective Decision-Making for Managers</li><li>Women in Leadership</li><li>Leading High-Performing Teams</li><li>Managing Workplace Conflict</li></ul></div>
+      <div class="cat reveal"><div class="top"><div><div class="n">03</div><h3>Communication &amp; Customer Service</h3></div><span class="ct">12 courses</span></div><ul><li>Effective Communication Skills</li><li>Business Writing Skills</li><li>Professional Email Etiquette</li><li>Telephone Etiquette</li><li>Customer Service Excellence</li><li>Customer Complaints Handling</li><li>Presentation Skills</li><li>Public Speaking</li><li>Negotiation Skills</li><li>Assertiveness Training</li><li>Interpersonal Skills</li><li>Business Etiquette &amp; Professional Conduct</li></ul></div>
+      <div class="cat reveal"><div class="top"><div><div class="n">04</div><h3>Sales &amp; Business Development</h3></div><span class="ct">9 courses</span></div><ul><li>Sales Fundamentals</li><li>Selling &amp; Negotiation Skills</li><li>Business Development Skills</li><li>Customer Relationship Management</li><li>Sales Pitching &amp; Presentation</li><li>Handling Sales Objections</li><li>Closing Sales Effectively</li><li>Networking &amp; Relationship Building</li><li>Key Account Management</li></ul></div>
+      <div class="cat reveal"><div class="top"><div><div class="n">05</div><h3>Entrepreneurship &amp; SME Development</h3></div><span class="ct">13 courses</span></div><ul><li>Entrepreneurship Fundamentals</li><li>Starting and Managing a Small Business</li><li>Business Planning</li><li>Financial Literacy for Entrepreneurs</li><li>Budgeting &amp; Cash Flow Management</li><li>Marketing for Small Businesses</li><li>Business Growth Strategies</li><li>Pricing Products &amp; Services</li><li>Tender Readiness &amp; Bid Preparation</li><li>Supplier Readiness</li><li>Record-Keeping for Small Businesses</li><li>Digital Marketing Basics</li><li>Customer Acquisition &amp; Retention</li></ul></div>
+      <div class="cat reveal"><div class="top"><div><div class="n">06</div><h3>Office Administration &amp; Workplace Readiness</h3></div><span class="ct">11 courses</span></div><ul><li>Office Administration Fundamentals</li><li>Receptionist &amp; Front Desk Skills</li><li>Meeting Management &amp; Minute Taking</li><li>Workplace Professionalism</li><li>Organisational Skills</li><li>Report Writing</li><li>Interview Preparation</li><li>CV Writing &amp; Job Readiness</li><li>Workplace Diversity &amp; Inclusion</li><li>Teamwork &amp; Collaboration</li><li>Basic Computer Literacy Workshops</li></ul></div>
+      <div class="cat reveal"><div class="top"><div><div class="n">07</div><h3>Training for Schools, Youth &amp; Communities</h3></div><span class="ct">9 courses</span></div><ul><li>Career Guidance &amp; Planning</li><li>Youth Leadership Development</li><li>Life Skills Development</li><li>Financial Literacy for Youth</li><li>Entrepreneurship for Young People</li><li>Communication &amp; Confidence Building</li><li>Job Readiness &amp; Employability</li><li>Social Media Responsibility</li><li>Goal Setting &amp; Motivation</li></ul></div>
+    </div>
+    <p class="cnote">Soft-skills courses are currently non-accredited; accreditation for selected programmes is in progress. Need something not listed? <a href="#contact">Ask us for a tailored programme</a>.</p>
   </div>
 </section>
 
@@ -414,6 +455,14 @@ burger.addEventListener('click',()=>{const o=nav.classList.toggle('open');burger
 document.querySelectorAll('.menu a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');burger.setAttribute('aria-expanded',false)}));
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// course search
+const cq=document.getElementById('cq'),cc=document.getElementById('cc');
+cq&&cq.addEventListener('input',()=>{const q=cq.value.trim().toLowerCase();let n=0;
+document.querySelectorAll('#cgrid .cat').forEach(cat=>{const hit=cat.querySelector('h3').textContent.toLowerCase().includes(q);let k=0;
+cat.querySelectorAll('li').forEach(li=>{const m=!q||hit||li.textContent.toLowerCase().includes(q);li.classList.toggle('hide',!m);if(m)k++});
+cat.classList.toggle('hide',k===0);n+=k});
+cc.textContent=q?`${n} course${n===1?'':'s'} found`:'Showing all 79 courses'});
 </script>
 </body>
 </html>
